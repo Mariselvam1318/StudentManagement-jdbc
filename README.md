@@ -18,33 +18,25 @@ The Student Management System is a Java application that allows you to manage st
 - **MySQL Database:** Ensure MySQL is installed and running.
 
 ## Database Setup
-
 1. **Create Database:**
 
    ```sql
    CREATE DATABASE db;
 
-## Database Setup
-
 2. **Select the Database:**
-
-   ```sql
-   USE db;
-
-## Create the Student Table
-
-```sql
+    ```sql
+      USE db;
+3. **Create the Student Table:**
 CREATE TABLE Student (
     Student_Id INT PRIMARY KEY,
     Student_Name VARCHAR(255),
     Student_Class VARCHAR(20),
     Student_Mark INT
 );
-
-## Check Table Structure
-
+4. **Check Table Structure:**
 ```sql
 DESC Student;
+```sql
 
 ## Compilation and Execution
 
